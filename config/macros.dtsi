@@ -1,3 +1,9 @@
+macro_git_add: macro_git_add{
+compatible = "zmk,behavior-macro";
+label = "macro_git_add";
+#binding-cells = <0>;
+bindings = <&kp G>, <&kp I>, <&kp T>, <&kp SPACE>, <&kp A>, <&kp D>, <&kp D>, <&kp SPACE>, <&kp PERIOD>, <&kp RETURN>;
+};
 macro_git_diff: macro_git_diff{
 compatible = "zmk,behavior-macro";
 label = "macro_git_diff";
