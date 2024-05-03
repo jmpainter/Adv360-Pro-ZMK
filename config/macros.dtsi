@@ -1,3 +1,9 @@
+macro_git_status: macro_git_status{
+compatible = "zmk,behavior-macro";
+label = "macro_git_status";
+#binding-cells = <0>;
+bindings = <&kp G>, <&kp I>, <&kp T>, <&kp SPACE>, <&kp S>, <&kp T>, <&kp A>, <&kp T>, <&kp U>, <&kp S>, <&kp RETURN>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
