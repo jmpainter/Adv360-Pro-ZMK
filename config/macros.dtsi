@@ -1,3 +1,9 @@
+macro_git_rebase: macro_git_rebase{
+compatible = "zmk,behavior-macro";
+label = "macro_git_rebase";
+#binding-cells = <0>;
+bindings = <&kp G>, <&kp I>, <&kp T>, <&kp SPACE>, <&kp R>, <&kp E>, <&kp B>, <&kp A>, <&kp S>, <&kp E>, <&kp SPACE>, <&kp U>, <&kp P>, <&kp S>, <&kp T>, <&kp R>, <&kp E>, <&kp A>, <&kp M>, <&kp SLASH>, <&kp D>, <&kp E>, <&kp V>, <&kp E>, <&kp L>, <&kp O>, <&kp P>;
+};
 macro_git_fetch: macro_git_fetch{
 compatible = "zmk,behavior-macro";
 label = "macro_git_fetch";
